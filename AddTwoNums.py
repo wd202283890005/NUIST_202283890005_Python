@@ -1,6 +1,7 @@
 #add two numbers
-a = 12
-b = 15
-res = a+b
+a = input("First number:")
+b = input("Second number:")
+res = float(a) + float(b)
+
 print(res)
 
